@@ -99,33 +99,10 @@ def organize_schools(schools)
       if new_hash[location_value] == nil
         new_hash[location_value] = []
         new_hash[location_value] << school_name
-      else 
+      else
         new_hash[location_value] << school_name
       end
     end
   end
   new_hash
 end
-      # new_hash[location_value] = []
-# let(:schools) {
-#   {
-#     "flatiron school bk" => {
-#       :location => "NYC"
-#     },
-#     "flatiron school" => {
-#       :location => "NYC"
-#     },
-#     "dev boot camp" => {
-#       :location => "SF"
-#     },
-#     "dev boot camp chicago" => {
-#       :location => "Chicago"
-#     },
-#     "general assembly" => {
-#       :location => "NYC"
-#     },
-#     "Hack Reactor" => {
-#       :location => "SF"
-#     }
-#   }
-# }
